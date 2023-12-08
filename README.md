@@ -1,4 +1,4 @@
-# Understanding IP Addresses and CIDR Notation
+# Understanding IP Addresses and CIDR Notation - Armstrong
 
 ## IP Addresses and CIDR Notation Demystified: 
 
