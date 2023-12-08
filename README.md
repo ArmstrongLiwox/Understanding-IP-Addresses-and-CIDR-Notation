@@ -2,7 +2,11 @@
 
 ## IP Addresses and CIDR Notation Demystified: 
 
+---
+
 # Introduction to IP Addresses
+
+![ip address](<images/ip address (2).jpg>)
 
 An IP address is a unique address that identifies a device on the internet or a local network. IP stands for "Internet Protocol," which is the set of rules governing the format of data sent via the internet or local network. In essence, IP addresses are the identifier that allows information to be sent between devices on a network: they contain location information and make devices accessible for communication. The internet needs a way to differentiate between different computers, routers, and websites. IP addresses provide a way of doing so and form an essential part of how the internet works.
 
@@ -11,6 +15,8 @@ An IP address is a unique address that identifies a device on the internet or a 
 An IP address is a string of numbers separated by periods. IP addresses are expressed as a set of four numbers - an example address might be 192.158.1.38. Each number in the set can range from 0 to 255. So, the full IP addressing range goes from 0.0.0.0 to 255.255.255.255. IP addresses are not random. They are mathematically produced and allocated by the Internet Assigned Numbers Authority (IANA), a division of the Internet Corporation for Assigned Names and Numbers (ICANN). ICANN is a non-profit organization that was established in the United States in 1998 to help maintain the security of the internet and allow it to be usable by all. Each time anyone registers a domain on the internet, they go through a domain name registrar, who pays a small fee to ICANN to register the domain.
 
 ![ip address](<images/ip address.jpg>)
+
+---
 
 ## Subnetting and Subnet Masks
 
@@ -26,6 +32,8 @@ It also helps you to reduce the size of the routing tables, which is stored in r
 
 A subnet mask is a 32 bits address used to distinguish between a network address and a host address in IP address. A subnet mask identifies which part of an IP address is the network address and the host address. They are not shown inside the data packets traversing the Internet. They carry the destination IP address, which a router will match with a subnet.
 
+---
+
 
 # CIDR Notation and Address Aggregation
 
@@ -35,15 +43,19 @@ Classless Inter-Domain Routing (CIDR) is an IP address allocation method that im
 
 ![cidr table](<images/cidr table.jpg>)
 
+---
+
 ## IP Address Aggregator
 
-IP Address Aggregator is a utility developed to automate minimization process and convert bunch of IPv4 addresses into smallest continuous range(s) possible. IP
-aggregation is commonly performed by network engineers working with BGP & routers. This utility will help webmasters to configure server firewalls, apache.htaccess files, address masks and so on.
+IP Address Aggregator is a utility developed to automate minimization process and convert bunch of IPv4 addresses into smallest continuous range(s) possible. 
+
+IP aggregation is commonly performed by network engineers working with BGP & routers. This utility will help webmasters to configure server firewalls, apache.htaccess files, address masks and so on.
 
 ### Basic Usage
 
-IP Address Aggregation Tool accepts various IP address formats for input (scroll to Input Format Examples for more details). Enter IP Address list in a block of text (one IP Address or range per line) into IP Address Ranges input area. Select desired output format and click submit button. It will automatically discard any non-recognized or invalid address text.
-Once processed click on Copy To Clipboard button to directly copy results into memory and paste it anywhere else
+IP Address Aggregation Tool accepts various IP address formats for input (scroll to Input Format Examples for more details). Enter IP Address list in a block of text (one IP Address or range per line) into IP Address Ranges input area. Select desired output format and click submit button. It will automatically discard any non-recognized or invalid address text. Once processed click on Copy To Clipboard button to directly copy results into memory and paste it anywhere else
+
+---
 
 # IP Address Classes and Private IP Address Ranges
 
@@ -85,6 +97,8 @@ Example for a Class E IP address:
 243.164.89.28
 
 ![classes](images/classes.jpg)
+
+---
 
 ## Limitations of classful IP addressing
 
