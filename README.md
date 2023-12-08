@@ -98,7 +98,7 @@ Here are the drawbacks/cons of the classful IP addressing method:
 
 1. All bits of network ID set to 1 are reserved for use as an IP broadcast address and cannot be used. All bits of network ID are set to 0. They are used to denote a particular host on the local network and should not be routed.
 
-![classes](images/classes1.jpg)
+![classes numbering](images/2.png)
 
 ---
 
