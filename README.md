@@ -1,7 +1,7 @@
 # Understanding IP Addresses and CIDR Notation - Armstrong
-
+---
 ## IP Addresses and CIDR Notation Demystified: 
-
+***STUDY NOTES***
 ---
 
 # Introduction to IP Addresses
