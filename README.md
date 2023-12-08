@@ -104,9 +104,23 @@ Here are the drawbacks/cons of the classful IP addressing method:
 
 # Advanced Topics in IP Addressing
 
-Advanced topics in TCP/IP networking involve the study of advanced technologies and techniques for managing and optimizing network performance. These may include routing protocols, which are used to exchange information about network destinations between devices on a network; Virtual Private Networks (VPNs), which enable users to securely connect to a private network over the internet; Quality of Service (QoS), which is a set of technologies and techniques that are used to manage and optimize network performance; the Domain Name System (DNS), which is a hierarchical, distributed database that is used to translate human-readable domain names into machine- readable IP addresses; and Network Address Translation (NAT), which is a technique that is used to allow devices on a private network to communicate with devices on a public network.
+Advanced topics in TCP/IP networking involve the study of advanced technologies and techniques for managing and optimizing network performance. 
 
-Routing Protocols Virtual Private Networks (VPNs) Quality of Service (QoS) Domain Name System (DNS) Network Address Translation (NAT)
+These may include:
+
+**Routing protocols**, which are used to exchange information about network destinations between devices on a network; 
+
+**Virtual Private Networks (VPNs)**, which enable users to securely connect to a private network over the internet; 
+
+**Quality of Service (QoS)**, which is a set of technologies and techniques that are used to manage and optimize network performance; 
+
+**Domain Name System (DNS)**, which is a hierarchical, distributed database that is used to translate human-readable domain names into machine- readable IP addresses; and 
+
+**Network Address Translation (NAT)**, which is a technique that is used to allow devices on a private network to communicate with devices on a public network.
+
+---
+
+# Routing Protocols Virtual Private Networks (VPNs) Quality of Service (QoS) Domain Name System (DNS) Network Address Translation (NAT).
 
 By understanding these and other advanced topics in TCP/IP networking, organizations can more effectively design, manage, and optimize their networks.
 
@@ -124,22 +138,30 @@ These protocols combine elements of distance vector and link-state protocols. Ex
 
 These protocols use a path vector (a list of autonomous systems that a route traverses) to determine the best path to a destination. Examples include Border Gateway Protocol (BGP) and Protocol Independent Multicast (PIM). By understanding the different routing protocols and how they work, you can more effectively design and manage networks, optimize routing decisions, and improve network performance.
 
+![distance vector](images/distance.jpg)
+
+---
+
 # VPN 
 
 Virtual Private Networks (VPNs) A Virtual Private Network (VPN) is a technology that enables users to connect to a private network over the internet securely. It is often used in the context of advanced TCP/IP networking topics to securely extend a private network over a public network, such as the internet.
 
+![vpn](images/vpn.jpg)
+
 ## There are several types of VPNs, including:
 
-Remote-Access VPNs: These allow users to connect to a private network remotely, such as their home or office. 
+**Remote-Access VPNs**: These allow users to connect to a private network remotely, such as their home or office. 
 
-Site-to-Site VPNs: These VPNs allow organizations to connect multiple sites over a public network, such as the internet, to create a single, private network. 
+**Site-to-Site VPNs**: These VPNs allow organizations to connect multiple sites over a public network, such as the internet, to create a single, private network. 
 
-Mobile VPNs: These VPNs allow users to securely connect to a private network using a laptop or mobile device while on the go. 
+**Mobile VPNs**: These VPNs allow users to securely connect to a private network using a laptop or mobile device while on the go. 
 
-Virtual LAN (VLAN) VPNs: These VPNs allow users to create virtual networks within a larger network, segment traffic, and improve security. 
+**Virtual LAN (VLAN) VPNs**: These VPNs allow users to create virtual networks within a larger network, segment traffic, and improve security. 
 
 By using a VPN, organizations can securely connect to a private network from a remote location, connect multiple sites over a public network, or create virtual networks within a larger network. 
 This can help to improve security, enable remote access, and optimize network performance.
+
+---
 
 ## Quality of Service (QoS) 
 
@@ -148,11 +170,13 @@ It is often discussed in the context of advanced TCP/IP networking topics to ens
 
 ### There are several key components of QoS, including:
 
-Traffic management: This involves rate limiting and congestion control techniques to ensure that network resources are used efficiently and fairly. 
+**Traffic management**: This involves rate limiting and congestion control techniques to ensure that network resources are used efficiently and fairly. 
 
-Priority queuing: This involves assigning different priorities to different types of traffic so that important traffic (such as real-time audio and video) is given priority over less critical traffic (such as email and file transfers). 
+**Priority queuing**: This involves assigning different priorities to different types of traffic so that important traffic (such as real-time audio and video) is given priority over less critical traffic (such as email and file transfers). 
 
-Packet marking: This involves adding tags or markings to packets to indicate their priority level so that network devices can treat them differently. Packet scheduling involves selecting which packets to transmit first based on their priority level and other factors. 
+**Packet marking**: This involves adding tags or markings to packets to indicate their priority level so that network devices can treat them differently. Packet scheduling involves selecting which packets to transmit first based on their priority level and other factors. 
+
+---
 
 By implementing QoS technologies and techniques, organizations can improve the performance and reliability of their networks and ensure that critical applications and services receive the resources they need to operate effectively.
 
