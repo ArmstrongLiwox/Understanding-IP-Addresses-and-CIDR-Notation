@@ -53,7 +53,7 @@ Classful addressing is a network addressing the Internet's architecture from 198
 This addressing method divides the IP address into five separate classes based on four address bits.
 Here, classes A, B, C offers addresses for networks of three distinct network sizes. Class D is only used for multicast, and class E reserved exclusively for experimental purposes.
 
-![classes](images/classes.jpg)
+![classful](images/1.jpg)
 
 Let's see each of the network classes in detail:
 
@@ -83,6 +83,8 @@ Class D addresses are only used for multicasting applications. Class D is never 
 Class E IP address is defined by including the starting four network address bits as 1, which allows you two to incorporate addresses from 240.0.0.0 to 255.255.255.255. However, E class is reserved, and its usage is never defined. Therefore, many network implementations discard these addresses as undefined or illegal.
 Example for a Class E IP address:
 243.164.89.28
+
+![classes](images/classes.jpg)
 
 ## Limitations of classful IP addressing
 
